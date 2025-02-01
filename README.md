@@ -1,10 +1,10 @@
 # Easy, reproducible Metashape workflows
 
-A tool to make it easy to run reproducible, automated, documented Metashape photogrammetry workflows in batches on an individual computer (in serial) or as parallel jobs on a compute cluster. No coding knowledge required.
+A tool to make it easy to run python-based scripting of full workflows using Agisoft Metashape. Scripting increases the speed of image product creation and makes your workflows fully reproducible and documented. We demonstrate native installation as well as containerized (docker) workflows. We show you how to run serial batches (on you local machine) an as parallel jobs on a compute cluster. All of the python code has been written for you. You need to provide **1.** a Metashape license, **2.** your images, and optionally **3.** ground control points.
 
-## Setup
+Table of Contents
 
-### External Users
+## Native Installation & Setup
 
 **Python:** You need Python 3.6-3.8. We recommend the [Anaconda distribution](https://www.anaconda.com/distribution/) because it includes all the required libraries. When installing, if asked whether the installer should initialize Anaconda3, say "yes". Anaconda must be initialized upon install such that `python` can be called from the command line. A way to check is to simply enter `python` at your command prompt and see if the resulting header info includes Anaconda and Python 3. If it doesn't, you may still need to initialize your Conda install. **Alternative option:** If you want a minimal python installation (such as if you're installing on a computing cluster), you can install [miniconda](https://docs.conda.io/en/latest/miniconda.html) instead. After intalling miniconda, you will need to install additional packages required by our scripts (currently only `PyYAML`) using `pip install {package_name}`.
 
