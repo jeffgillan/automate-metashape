@@ -217,7 +217,7 @@ The use of graphical processing units (GPUs) can greatly increase the speed of p
 ### Run the docker container
 From a terminal, run this command: 
 
-`docker run -v </host/data/dir>:/data -e AGISOFT_FLS=$AGISOFT_FLS --gpus all ghcr.io/open-forest-observatory/automate-metashape`
+`docker run -v </host/data/dir>:/data -e AGISOFT_FLS=$AGISOFT_FLS --gpus all ghcr.io/open-forest-observatory/automate-metashape --config_file /data/config.yml`
 
 Here is a breakdown of the command:
 
