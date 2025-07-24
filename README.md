@@ -174,7 +174,7 @@ Rscript --vanilla {path_to_repo}/R/prep_gcps.R {path_to_imagery_storage}/sample_
 
 ## Docker Container Setup
 
-Docker, a type of software containerization, is an alternative way to run software where you don't need to install software in the traditional sense. Docker packages up the code and all its environment dependencies so the application runs reliably from one computer to another. Background information on docker and software containers can be found [here](https://foss.cyverse.org/07_reproducibility_II/).
+Docker, a type of software containerization, is an alternative way to run software where you don't need to install software in the traditional 'native' sense. Docker packages up the code and all its environment dependencies so the application runs reliably from one computer to another. Background information on docker and software containers can be found [here](https://foss.cyverse.org/07_reproducibility_II/).
 
 To run a docker container on your local machine, you do need to install `docker`. You can install and run docker as a command line tool for [linux distributions](https://docs.docker.com/engine/install/) or as a graphical program (i.e, Docker Desktop) for [windows](https://docs.docker.com/desktop/setup/install/windows-install/), [macOS](https://docs.docker.com/desktop/setup/install/mac-install/), or [linux](https://docs.docker.com/desktop/setup/install/linux/). We recommend running docker commands at the terminal. If you are using Docker Desktop, you can still write commands at the terminal while Docker Desktop is open and running.
 
