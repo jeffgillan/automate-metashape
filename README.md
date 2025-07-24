@@ -1,6 +1,6 @@
 # Easy, reproducible Metashape workflows
 
-A tool to make it easy to run python-based scripting of full workflows using Agisoft Metashape. Scripting increases the speed of image product creation and makes your workflows fully reproducible and documented. We demonstrate [native installation](#native-installation--setup) as well as a [docker workflow](#docker-container-setup). We show you how to run serial batches (on you local machine) and as parallel jobs on a compute cluster. All of the python code has been written for you. You need to provide **1.** a Metashape license, **2.** your images, and optionally **3.** ground control points.
+This is a tool to make it easy to run python-based scripting of full workflows using Agisoft Metashape. Scripting increases the speed of image product creation and makes your workflows fully reproducible and documented. We demonstrate [native installation](#native-installation--setup) as well as a [docker workflow](#docker-container-setup). We show you how to run serial batches (on you local machine) and as parallel jobs on a compute cluster. All of the python code has been written for you. You need to provide **1.** a Metashape license, **2.** your images, and optionally **3.** ground control points.
 
 Table of Contents
 
