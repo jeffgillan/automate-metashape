@@ -26,7 +26,7 @@ to switch to a conda environment with a current Metashape python package preinst
 <br>
 <br>
 
-## Usage
+## Native Usage
 
 **Reproducible workflow scripts:** Simply clone this repository to your machine!
 
